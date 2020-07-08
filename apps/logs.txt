@@ -1,0 +1,2 @@
+policia$SELECT * FROM acidentes WHERE IdAcidente=1;$2019-11-12 16:43:41
+policia$SELECT IdVia, Nome FROM Vias Where IdVia = (SELECT IdVia FROM Acidentes Where IdAcidente = 1);$2019-11-12 16:43:46
